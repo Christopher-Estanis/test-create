@@ -1,0 +1,18 @@
+{
+  "name": "createProjects",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "description": "",
+  "dependencies": {
+    "fs-extra": "^9.0.1"
+  }
+}
