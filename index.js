@@ -10,7 +10,7 @@ const createProject = async () => {
     (error, stdout, stderr) => {
     console.log({ error, stdout, stderr })
   })
-
+  console.log('Testando!')
   
   await fs.copy('./project', `${__dirname}/${projectName}`, (err) => {
     if (err) throw err;
